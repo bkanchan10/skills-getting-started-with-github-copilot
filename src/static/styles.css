@@ -88,13 +88,35 @@ section h3 {
 }
 
 .participants-section ul {
-  margin-left: 20px;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 .participants-section li {
   margin-bottom: 5px;
   font-size: 14px;
   color: #555;
+}
+
+.participants-section li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+
+.delete-btn:hover {
+  background-color: rgba(198, 40, 40, 0.08);
 }
 
 .participants-section em {
